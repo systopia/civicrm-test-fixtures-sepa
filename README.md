@@ -1,6 +1,11 @@
 <div>&nbsp</div>
 <div align="center">
 <img src="/docs/images/logo-systopia.webp" alt="Systopia Logo"/>
+</div>
+
+<div>&nbsp</div>
+
+<div align="center">
 
 ![Generic badge](https://img.shields.io/badge/Maintained-Actively-green.svg)
 [![Generic badge](https://img.shields.io/badge/Maintainer-SYSTOPIA-blue.svg)](https://github.com/systopia)
