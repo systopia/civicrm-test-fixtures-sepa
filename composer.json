@@ -5,7 +5,6 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "license": "AGPL-3.0-or-later",
-  "version": "0.1.0",
   "authors": [
     {
       "name": "SYSTOPIA",
