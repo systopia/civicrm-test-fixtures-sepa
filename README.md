@@ -1,4 +1,3 @@
-<div>&nbsp</div>
 <div align="center">
 <img src="/docs/images/logo-systopia.webp" alt="Systopia Logo"/>
 </div>
