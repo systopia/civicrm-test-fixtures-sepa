@@ -52,6 +52,9 @@ jobs:
         # Run with --no-scripts so ComposerHelper doesn't prevent installation
         # of civicrm packages.
         composer update --no-scripts --no-progress --prefer-dist --${{ matrix.prefer }} --optimize-autoloader --ignore-platform-reqs
+        
+        mkdir -p vendor/project60
+        git clone --depth=1 https://github.com/project60/org.project60.sepa.git vendor/project60/org.project60.sepa
 
     - name: Run PHPStan
       run: composer phpstan -- analyse -c phpstan.ci.neon
