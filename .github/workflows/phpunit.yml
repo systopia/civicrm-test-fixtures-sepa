@@ -81,6 +81,7 @@ jobs:
           export PATH="$(pwd)/vendor/bin:$PATH"
           
           cv ext:download "org.project60.sepa@https://github.com/Project60/org.project60.sepa/releases/download/1.12.3/org.project60.sepa-1.12.3.zip"
+          cv ext:download "org.project60.banking@https://github.com/Project60/org.project60.banking/releases/download/1.3.2/org.project60.banking-1.3.2.zip"
 
       - name: Place project into standalone ext dir
         run: |
