@@ -23,7 +23,7 @@
     "civicrm/civicrm-core": ">=5.81",
     "civicrm/civicrm-packages": ">=5.81",
     "symfony/polyfill-php82": "^1.29",
-    "systopia/civicrm-test-fixtures": "dev-main"
+    "systopia/civicrm-test-fixtures": "dev-main@dev"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.6",
