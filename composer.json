@@ -16,30 +16,12 @@
     {
       "type": "git",
       "url": "https://github.com/civicrm/coder.git"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "project60/org.project60.sepa",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/Project60/org.project60.sepa.git",
-          "type": "git",
-          "reference": "master"
-        },
-        "autoload": {
-          "classmap": [
-            ""
-          ]
-        }
-      }
     }
   ],
   "require": {
     "php": ">=8.1",
     "civicrm/civicrm-core": ">=5.81",
     "civicrm/civicrm-packages": ">=5.81",
-    "project60/org.project60.sepa": "dev-master",
     "symfony/polyfill-php82": "^1.29",
     "systopia/civicrm-test-fixtures": "dev-main"
   },
